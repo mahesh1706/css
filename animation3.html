@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        body{
+            padding:0;
+            margin:0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box{
+            margin-top:180px;
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            border: 3px solid black;
+            animation: box;
+           animation-duration: 10s;
+        }
+        
+
+        @keyframes box{
+          25%{
+              transform: translateX(300px) rotateZ(360deg);
+          }
+          50%{
+              transform: translateY(300px)rotateZ(-360deg);
+          } 
+          75%{
+             transform: translateX(-300px)rotateZ(360deg);
+          }
+          100%{
+             transform: translateY(-300px)rotateZ(-360deg);
+          }
+    }
+    </style>
+</head>
+<body>
+    
+   <div class="box"></div>
+</body>
+</html>

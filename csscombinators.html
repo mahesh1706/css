@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combinators</title>
+    <style>
+        #combinators > h2{
+            color:lime;
+        }
+        
+
+        #combinators + h2 {
+            color:yellow;
+        }
+
+        #combinators ~ h2 {
+            background-color: tomato;
+        }
+        div p{
+            color: red;
+        }
+
+    h2::first-letter{
+        font-size: 40px;
+        font-weight: bolder;
+
+    }
+
+    p:hover{
+        color:blue;
+    }
+   
+
+
+    </style>
+</head>
+<body>
+    <div id="combinators">
+        <h2>desendent selector</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero architecto sequi eius recusandae qui ratione, voluptatem hic ut nam, suscipit officiis dignissimos. Eius, ipsum sunt! Ullam nihil accusantium similique non.</p>
+    </div>
+ 
+        <h2>child selector</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur harum asperiores consequuntur, veniam amet delectus sequi, voluptas cupiditate expedita enim assumenda rerum minus. Libero numquam accusantium eaque id dolore dignissimos?</p>
+        <h2>general sibling</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, distinctio qui non, quis tenetur aliquam odio voluptate accusamus sapiente ullam quasi rerum harum exercitationem alias quas necessitatibus ex nulla minus.</p>
+    </div>
+</body>
+</html>

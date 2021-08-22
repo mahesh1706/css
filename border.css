@@ -1,0 +1,316 @@
+/* css selectors */
+
+/*  * = for */
+
+body{
+    color: white;
+    background-color: black;
+    
+}
+
+
+@media screen and (max-width : 1200px) {
+
+body{
+    color: darkgreen;
+    background-image: url(w.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    outline: 5px , solid , red;
+    opacity: 1;
+}
+   
+.table{
+    min-width: 360px;
+    max-width: 1200px;
+    margin: -30px
+}
+}
+
+h1{
+    outline:50px;
+    outline-color: red;
+    border: 10px;
+    border-style: double;
+     color: white;
+    margin-top: 30px;
+    margin-left: 99px;
+    margin-right: 99px;
+padding:25px;
+text-shadow: 3px 2px black;
+text-align: center;
+text-decoration: underline;
+text-transform:capitalize;
+    
+
+}
+
+.div{
+    border: 10px;
+    border-color: rgb(255, 255, 255);
+    border-style: double;
+    margin: 100px;
+    padding: 10px;
+    padding-left: 30px;
+    color:white;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-shadow: 1px 1px black;
+    text-align: justify;
+    padding-right: 30px;
+    text-transform:capitalize;
+}
+
+.width{
+    text-align: center;
+    text-shadow: 1px 1px black;
+    margin-top: 250px;
+    margin-left: 45px;
+    margin-right: 45px;
+    border-style:double;
+    border-color: white;
+    padding: 35px;
+    color:white;
+    width:auto;
+    text-transform:capitalize;
+    line-height: 1.8;
+    font-size:19px;
+    font-weight: bold;
+   
+    
+}
+
+/* css link */
+
+.links{
+    text-align: center;
+    text-shadow: 2px;
+    line-height: 1.8;
+    font-size: large;
+    font-weight: bold;
+    background-color: black;
+
+}
+
+.links a {
+    color: lime;
+}
+
+.links a:link {
+    color:red;
+}
+
+.links a:visited{
+    color:blue;
+}
+
+.links a:hover{
+    color:red;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.links a:active{
+    color:white;
+}
+
+.link {
+    margin: 200px;
+    padding: 38px;
+    text-align: center;
+    text-shadow: 2px;
+    font-weight: bolder;
+
+    
+}
+
+.link button{
+    color: white;
+    font-size: 30px;
+    border-radius: 8px;
+    border:none;
+    color:rgb(253, 246, 246);
+   text-decoration: none;
+}
+
+.google{
+    background-color:red;
+    color:white;
+    text-decoration: none;
+}
+
+.google a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.google a:visited{
+    color:white;
+}
+
+.google a:hover{
+    color:yellow;
+    font-size:28px;
+}
+
+
+.facebook{
+    background-color:darkblue;
+    color:white;
+    text-decoration: none;
+}
+
+.facebook a:link {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.facebook a:visited{
+    color:white;
+}
+
+.facebook a:hover {
+    color:yellow;
+    font-size:28px;
+}
+
+
+.linkedin{
+    background-color:rgb(0, 191, 255);
+    color:white;
+    text-decoration: none;
+}
+
+.linkedin a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.linkedin a:visited{
+    color:white;
+}
+
+.linkedin a:hover{
+    color:yellow;
+    font-size:28px;
+}
+
+
+
+.ol{
+    background: rgb(17, 34, 51);
+    list-style-position: inside;
+    display: none;
+    padding: 35px;
+    font-weight: bold;
+    line-height: 2.8;
+    font-size: 30px;
+    color:white;
+    text-shadow: #001;
+    text-transform: lowercase;
+
+}
+
+.ol li:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.274);
+    font-size: 36px;
+}
+
+.ol li:active{
+    color:darkgrey;
+}
+
+@media screen and (min-width:580px){
+    
+    .table{
+        margin-left: 3px;
+        margin-bottom: 150px;
+        margin-right: 3px;
+        font-size: 10px;
+        font-weight:lighter;
+        border-collapse: collapse;
+        text-transform: capitalize;
+        color: white;
+        background-color: rgba(66, 63, 63, 0.876);  
+        width: 40%;
+    }
+}
+.table{
+    margin-left: 10px;
+    margin-bottom: 150px;
+    margin-right: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    border-collapse: collapse;
+    text-transform: capitalize;
+    color: white;
+    background-color: rgba(66, 63, 63, 0.876);  
+    width: 100%;
+   
+}
+
+
+
+
+
+tr:hover{
+
+    background-color: rgba(14, 13, 13, 0.897);
+   font-weight: bolder;
+    
+}
+
+th{
+    background-color:rgb(14, 13, 13);
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 3px;
+    text-transform: capitalize;
+}
+
+tr:active{
+    background-color:rgb(14, 13, 13) ;
+}
+
+/*display css*/
+.display a button li:hover{
+    
+    color: rgb(0, 0, 0);
+  
+ 
+}
+
+li{
+    display: inline;
+
+    padding: 55px;
+    margin: 55px;
+    font-size:30px;
+    font-weight: 30px;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+
+button{
+  
+    border-radius: 100px;
+    text-decoration: none;
+    background-color:black;
+}
+
+a button li {
+    text-decoration: none;
+    color:white;
+    padding: 40px;
+    margin: 55px;
+
+    
+}
+
+button:hover{
+ 
+ background-color: rgba(255, 0, 0, 0.753);
+}
+

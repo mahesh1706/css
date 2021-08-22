@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positioning</title>
+    <style>
+.links{
+    background-color:#011;
+    color:white;
+    text-transform:capitalize;
+}
+
+.static{
+    position:static;
+    border: 3px solid lime;
+}
+
+.relative{
+    position:relative;
+    border: 3px solid rgb(0, 255, 0);
+    left:80px;
+}
+
+.fixed{
+    position: fixed;
+    bottom:0;
+    background-color: lime ;
+   width:100%;
+   text-align: center;
+   padding:8px;
+}
+.sticky{
+    position: sticky;
+    top:3px;
+    right: 0;
+    color: black;
+    border: 3px solid lime;
+    width: 100%;
+}
+.relatives{
+    position: relative;
+    right: 0;
+    height: 200px;
+    width: 38%;
+    border:3px solid lime;
+}
+
+.absolute{
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+    border: 3px solid lime;
+
+}
+    </style>
+</head>
+<body>
+    <br>
+    <br>
+    <h1>css position</h1>
+    <br>
+    <br>
+    <br>
+    <br><br>
+    <br>
+
+    <div class="sticky">this div element has position : Sticky;</div>
+    <div style="margin-top: 450px;margin-bottom: 450px;overflow-x: auto;" class="links">
+    <h1> css positions.</h1>
+    <div class="static">this is static method</div>
+    <br>
+    <div class="relative">this is relative method</div>
+    <br>
+    <br>
+    <br>
+    <div class="fixed">this is fixed method , can be used for footer</div>
+    <br>
+    <br>
+    
+    <div>
+    </div>
+    
+    <div class="relatives">this div is parent element for absolute position
+    <div class="absolute">this div element has position : absolute;</div>
+</div>
+</body>
+</html>
